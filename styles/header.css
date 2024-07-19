@@ -1,21 +1,21 @@
-.header-bg {
+.main-header-bg {
   background: var(--c4);
 }
 
-.header {
+.main-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
 }
 
-.header-links {
+.main-header-links {
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
-.header-links a,
+.main-header-links a,
 .page-header a {
   padding: .625rem;
   color: var(--c6);
