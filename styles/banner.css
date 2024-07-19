@@ -1,0 +1,44 @@
+.banner-bg {
+  position: relative;
+  background: url('/assets/collage-b&w.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+}
+
+.banner {
+  display: flex;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.banner h1 {
+  position: absolute;
+  bottom: 40px;
+  max-width: 16ch;
+  color: var(--c7);
+}
+
+@media(max-width: 1440px) {
+  .banner {
+    left: 0;
+  }
+}
+
+@media(max-width: 800px) {
+  .banner-bg {
+    height: 350px;
+  }
+}
+
+@media(max-width: 768px) {
+  .banner h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media(max-width: 540px) {
+  .banner-bg {
+    height: 250px;
+  }
+}
