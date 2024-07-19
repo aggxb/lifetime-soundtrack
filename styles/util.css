@@ -11,95 +11,62 @@
 .font-1-xg {
   font-family: "Quattrocento", sans-serif;
   font-size: 6rem;
-  font-weight: 400;
 }
 
 .font-1-g {
   font-family: "Quattrocento", sans-serif;
   font-size: 4rem;
-  font-weight: 700;
 }
 
-.font-1-m-r {
+.font-1-m {
   font-family: "Quattrocento", sans-serif;
   font-size: 2.5rem;
-  font-weight: 400;
 }
 
-.font-1-m-b {
-  font-family: "Quattrocento", sans-serif;
-  font-size: 2.5rem;
-  font-weight: 700;
-}
-
-.font-1-p-r {
+.font-1-p {
   font-family: "Quattrocento", sans-serif;
   font-size: 2rem;
-  font-weight: 400;
 }
 
-.font-1-p-b {
-  font-family: "Quattrocento", sans-serif;
-  font-size: 2rem;
-  font-weight: 700;
-}
-
-.font-1-xp-r {
+.font-1-xp {
   font-family: "Quattrocento", sans-serif;
   font-size: 1.5rem;
-  font-weight: 400;
 }
 
-.font-1-xp-b {
-  font-family: "Quattrocento", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 700;
-}
-
-.font-1-xxp-r {
+.font-1-xxp {
   font-family: "Quattrocento", sans-serif;
   font-size: 1.25rem;
-  font-weight: 400;
 }
 
-.font-1-xxp-b {
-  font-family: "Quattrocento", sans-serif;
-  font-size: 1.25rem;
-  font-weight: 700;
-}
-
-.font-2-g-r {
+.font-2-g {
   font-family: "Quattrocento Sans", sans-serif;
   font-size: 1.5rem;
-  font-weight: 400;
 }
 
-.font-2-g-b {
-  font-family: "Quattrocento Sans", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 700;
-}
-
-.font-2-m-r {
+.font-2-m {
   font-family: "Quattrocento Sans", sans-serif;
   font-size: 1.25rem;
-  font-weight: 400;
 }
 
-.font-2-m-b {
-  font-family: "Quattrocento Sans", sans-serif;
-  font-size: 1.25rem;
-  font-weight: 700;
-}
-
-.font-2-p-r {
+.font-2-p {
   font-family: "Quattrocento Sans", sans-serif;
   font-size: 1rem;
-  font-weight: 400;
 }
 
-.font-2-p-b {
-  font-family: "Quattrocento Sans", sans-serif;
-  font-size: 1rem;
-  font-weight: 700;
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 1.25rem 2.5rem;
+}
+
+@media(max-width: 800px) {
+  .container {
+    padding: 1rem 1.5rem;
+  }
+}
+
+@media(max-width: 540px) {
+  .container {
+    padding: 1rem;
+  }
 }
