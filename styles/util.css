@@ -1,0 +1,105 @@
+:root {
+  --c1: #0a0a0a;
+  --c2: #0d0d0d;
+  --c3: #152b08;
+  --c4: #0d1608;
+  --c5: #fffaed;
+  --c6: #fff5d9;
+  --c7: #c7ae6a;
+}
+
+.font-1-xg {
+  font-family: "Quattrocento", sans-serif;
+  font-size: 6rem;
+  font-weight: 400;
+}
+
+.font-1-g {
+  font-family: "Quattrocento", sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.font-1-m-r {
+  font-family: "Quattrocento", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.font-1-m-b {
+  font-family: "Quattrocento", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.font-1-p-r {
+  font-family: "Quattrocento", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.font-1-p-b {
+  font-family: "Quattrocento", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.font-1-xp-r {
+  font-family: "Quattrocento", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.font-1-xp-b {
+  font-family: "Quattrocento", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.font-1-xxp-r {
+  font-family: "Quattrocento", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.font-1-xxp-b {
+  font-family: "Quattrocento", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.font-2-g-r {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.font-2-g-b {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.font-2-m-r {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.font-2-m-b {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.font-2-p-r {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.font-2-p-b {
+  font-family: "Quattrocento Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+}
