@@ -19,12 +19,6 @@
   color: var(--c7);
 }
 
-@media(max-width: 1440px) {
-  .banner {
-    left: 0;
-  }
-}
-
 @media(max-width: 800px) {
   .banner-bg {
     height: 350px;
