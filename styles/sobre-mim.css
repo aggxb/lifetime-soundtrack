@@ -1,0 +1,39 @@
+.sobre-mim-bg {
+  background: var(--c4);
+}
+
+.sobre-mim {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.sobre-mim h2 {
+  color: var(--c7);
+}
+
+.sobre-mim .paragrafo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: var(--c6);
+}
+
+.sobre-mim .paragrafo p {
+  line-height: 1.15;
+}
+
+@media (max-width: 768px) {
+  .sobre-mim {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+  .sobre-mim h2 {
+    font-size: 2.5rem;
+  }
+  .sobre-mim .paragrafo p {
+    font-size: 1rem;
+  }
+}
