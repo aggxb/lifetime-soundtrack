@@ -33,11 +33,11 @@
   min-width: 400px;
 }
 
-.sobre h2 {
+.sobre .titulo {
   color: var(--c7);
 }
 
-.sobre-mim h2 {
+.sobre-mim .titulo {
   text-align: end;
 }
 
@@ -72,9 +72,6 @@
     gap: 40px;
     padding-top: 1rem;
     padding-bottom: 1rem;
-  }
-  .sobre h2 {
-    font-size: 2.5rem;
   }
 }
 
