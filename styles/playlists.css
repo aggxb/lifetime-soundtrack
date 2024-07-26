@@ -16,13 +16,11 @@
   gap: 8px;
 }
 
-.playlists-titulo h2 {
-  font-weight: 600;
+.playlists-titulo .titulo {
   color: var(--c3);
 }
 
-.playlists-titulo h3 {
-  font-weight: 400;
+.playlists-titulo .subtitulo {
   color: var(--c3);
 }
 
@@ -52,12 +50,6 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
-  .playlists-titulo h2 {
-    font-size: 2.5rem;
-  }
-  .playlists-titulo h3 {
-    font-size: 1.5rem;
-  }
   .playlists-item {
     flex-wrap: wrap;
     gap: 10px;
@@ -68,9 +60,6 @@
 }
 
 @media (max-width: 540px) {
-  .playlists-titulo h3 {
-    font-size: 1.25rem;
-  }
   .playlists-item .paragrafo {
     font-size: .875rem;
   }
