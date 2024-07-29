@@ -1,0 +1,17 @@
+.footer-bg {
+  background: var(--c4);
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer p {
+  color: var(--c6);
+}
+
+@media (max-width: 540px) {
+  .footer p {
+    font-size: 1.25rem;
+  }
+}
