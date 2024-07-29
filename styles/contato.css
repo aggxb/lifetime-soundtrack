@@ -1,0 +1,44 @@
+.contato-bg {
+  background: var(--c2);
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.contato-titulo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contato-titulo .titulo,
+.contato-titulo .subtitulo {
+  color: var(--c5);
+}
+
+.contato-redes {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.contato-redes a {
+  font-size: 4rem;
+  color: var(--c7);
+}
+
+@media (max-width: 768px) {
+  .contato {
+    gap: 20px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .contato-redes a {
+    font-size: 2.5rem;
+  }
+}
