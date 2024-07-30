@@ -15,8 +15,8 @@
 .banner h1 {
   position: absolute;
   bottom: 40px;
-  max-width: 16ch;
   color: var(--c7);
+  max-width: 685px;
 }
 
 @media(max-width: 800px) {
