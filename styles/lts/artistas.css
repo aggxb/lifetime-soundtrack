@@ -28,7 +28,7 @@
 
 .artista-desc {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   gap: 40px;
 }
 
@@ -59,6 +59,7 @@
 .artista-desc .paragrafo {
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
   gap: 10px;
   color: var(--c3);
 }
