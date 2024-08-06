@@ -1,0 +1,115 @@
+.albuns-bg {
+  background: var(--c2);
+}
+
+.albuns {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.albuns-titulo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.albuns-titulo .titulo {
+  color: var(--c7);
+}
+
+.albuns-titulo .subtitulo {
+  color: var(--c5);
+}
+
+.album-item {
+  display: flex;
+  gap: 20px;
+}
+
+.album-img img {
+  max-width: 350px;
+  border-radius: 24px;
+}
+
+.albuns-lista,
+.album-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.album-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.album-info h2 {
+  margin-bottom: 4px;
+}
+
+.album-info h3,
+.album-info h4 {
+  font-weight: 400;
+  color: var(--c6);
+}
+
+.album-desc > span,
+.album-info h2,
+.album-avaliacao p > span {
+  color: var(--c7);
+}
+
+.album-avaliacao {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.album-avaliacao p {
+  color: var(--c6);
+}
+
+@media (max-width: 800px) {
+  .album-img img {
+    max-width: 250px;
+  }
+  .album-desc {
+    gap: 20px;
+  }
+  .album-desc > span,
+  .album-info h2 {
+    font-size: 2rem;
+  }
+  .album-info h3,
+  .album-avaliacao p {
+    font-size: 1.5rem;
+  }
+  .album-info h4 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .albuns {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .album-item {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .album-img {
+    display: flex;
+    justify-content: center;
+  }
+  .album-desc {
+    gap: 10px;
+  }
+}
