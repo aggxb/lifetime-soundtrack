@@ -1,0 +1,81 @@
+.artistas-bg {
+  background: var(--c5);
+}
+
+.artistas {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+
+.artistas-titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.artistas-titulo .titulo {
+  color: var(--c3);
+}
+
+.artistas-titulo .subtitulo {
+  color: var(--c3);
+}
+
+.artista-desc {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.artista-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.artista-img img {
+  max-width: 350px;
+  border-radius: 24px;
+}
+
+.artista-img-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.artista-img-icons i {
+  padding: .5rem;
+  font-size: 2rem;
+  color: var(--c7);
+  cursor: pointer;
+}
+
+.artista-desc .paragrafo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: var(--c3);
+}
+
+@media (max-width: 1000px) {
+  .artista-desc {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .artista-img {
+    gap: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .artistas {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
