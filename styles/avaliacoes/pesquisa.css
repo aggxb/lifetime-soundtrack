@@ -1,0 +1,37 @@
+.pesquisa-bg {
+  background: var(--c1);
+}
+
+.pesquisa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.pesquisa li {
+  font-weight: bold;
+  text-align: center;
+  width: 100px;
+  padding: 1rem;
+  background: var(--c6);
+  color: var(--c4);
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .pesquisa li {
+    width: initial;
+  }
+}
+
+@media (max-width: 540px) {
+  .pesquisa {
+    gap: 8px;
+  }
+  .pesquisa li {
+    padding: .75rem;
+    font-size: .875rem;
+  }
+}
