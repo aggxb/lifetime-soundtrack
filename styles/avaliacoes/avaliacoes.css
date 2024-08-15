@@ -1,0 +1,50 @@
+.avaliacoes-bg {
+  background: var(--c2);
+}
+
+.avaliacoes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.avaliacoes-titulo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.avaliacoes-titulo .titulo {
+  color: var(--c7);
+}
+
+.avaliacoes-titulo .subtitulo {
+  color: var(--c6);
+}
+
+.avaliacoes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+#avaliacoes-list .album-img img {
+  max-width: 250px;
+}
+
+#avaliacoes-list .album-desc {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: space-between;
+}
+
+@media (max-width: 540px) {
+  #avaliacoes-list .album-desc {
+    padding-top: 0;
+    padding-bottom: 0;
+    gap: 20px;
+  }
+  #avaliacoes-list .album-avaliacao p {
+    font-size: 1.25rem;
+  }
+}
