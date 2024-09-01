@@ -1,0 +1,29 @@
+.historia-bg {
+  background: var(--c4);
+}
+
+.historia {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.historia .titulo {
+  color: var(--c7);
+}
+
+.historia .paragrafo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: var(--c6);
+}
+
+@media (max-width: 768px) {
+  .historia {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
