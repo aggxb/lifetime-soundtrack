@@ -12,6 +12,12 @@
   background-position: center;
 }
 
+#rap {
+  background: url('/assets/rap.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
 .banner {
   display: flex;
   padding-top: 0;
