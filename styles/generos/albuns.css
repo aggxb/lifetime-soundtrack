@@ -1,0 +1,45 @@
+#albuns-sect .albuns-bg {
+  background: var(--c2);
+}
+
+#albuns-sect .albuns {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#albuns-sect .albuns .titulo {
+  color: var(--c7);
+}
+
+#albuns-sect .albuns-lista {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 60px;
+}
+
+#albuns-sect .album-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#albuns-sect .album-item .album-img img {
+  width: 520px;
+  max-width: 100%;
+}
+
+#albuns-sect .album-item .album-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  #albuns-sect .albuns {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
