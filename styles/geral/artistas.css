@@ -10,7 +10,6 @@
   padding-bottom: 4rem;
 }
 
-
 .artistas-titulo {
   display: flex;
   flex-direction: column;
@@ -74,6 +73,9 @@
   }
   .artista-img {
     gap: 5px;
+  }
+  .artista-desc .paragrafo {
+    margin-top: 0;
   }
 }
 
