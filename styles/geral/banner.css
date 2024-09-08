@@ -18,6 +18,11 @@
   background-position: center;
 }
 
+#r-and-b {
+  background: url('/assets/r&b.jpg');
+  background-size: cover;
+  background-position: right;
+}
 .banner {
   display: flex;
   padding-top: 0;
