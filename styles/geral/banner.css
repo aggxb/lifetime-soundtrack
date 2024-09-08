@@ -23,6 +23,13 @@
   background-size: cover;
   background-position: right;
 }
+
+#samba {
+  background: url('/assets/samba.jpg');
+  background-size: cover;
+  background-position: right;
+}
+
 .banner {
   display: flex;
   padding-top: 0;
