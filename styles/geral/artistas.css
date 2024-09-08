@@ -18,6 +18,10 @@
   gap: 8px;
 }
 
+#artistas-sect .artistas-titulo {
+  align-items: start;
+}
+
 .artistas-titulo .titulo {
   color: var(--c3);
 }

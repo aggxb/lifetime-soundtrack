@@ -2,12 +2,12 @@
 @import '/styles/geral/reset.css';
 @import '/styles/geral/header.css';
 @import '/styles/geral/banner.css';
+@import '/styles/geral/artistas.css';
 @import '/styles/home/sobre.css';
 @import '/styles/home/playlists.css';
 @import '/styles/home/contato.css';
 @import '/styles/geral/footer.css';
 @import '/styles/lts/generos.css';
-@import '/styles/lts/artistas.css';
 @import '/styles/lts/albuns.css';
 @import '/styles/avaliacoes/pesquisa.css';
 @import '/styles/avaliacoes/avaliacoes.css';
