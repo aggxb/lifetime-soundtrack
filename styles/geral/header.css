@@ -21,6 +21,10 @@
   color: var(--c6);
 }
 
+.main-header-links a.ativo {
+  color: var(--c7);
+}
+
 .page-header-bg {
   background: var(--c2);
 }
