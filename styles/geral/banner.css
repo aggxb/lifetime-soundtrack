@@ -1,5 +1,6 @@
 .banner-bg {
   position: relative;
+  top: 180px;
   background: url('/assets/collage-b&w.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -10,6 +11,7 @@
   background: url('/assets/vinyl.jpg');
   background-size: cover;
   background-position: center;
+  top: 120px;
 }
 
 #rap {
@@ -41,6 +43,7 @@
   bottom: 40px;
   color: var(--c7);
   max-width: 685px;
+  padding-right: 2rem;
 }
 
 @media(max-width: 800px) {
