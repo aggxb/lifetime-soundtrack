@@ -59,6 +59,11 @@
   box-sizing: border-box;
 }
 
+.page-header a.ativo {
+  transition: .5s;
+  color: var(--c7);
+}
+
 [data-overlay] {
   visibility: hidden;
   position: fixed;
