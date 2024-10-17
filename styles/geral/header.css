@@ -28,21 +28,56 @@
   gap: 20px;
 }
 
-.main-header a {
+.main-header-links a {
+  position: relative;
   color: var(--c6);
-}
-
-.page-header a {
-  padding: .625rem;
-  color: var(--c6);
-}
-
-.main-header-links li {
-  padding: .625rem;
 }
 
 .main-header-links a.ativo {
   color: var(--c7);
+}
+
+.main-header-links a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 3px;
+  left: 0;
+  bottom: -12px;
+  background: var(--c7);
+  border-radius: 10px;
+  transition: .3s;
+}
+
+.main-header-links a:hover::after {
+  width: 100%;
+}
+
+.page-header a {
+  position: relative;
+  padding: .625rem;
+  color: var(--c6);
+  transition: .3s;
+}
+
+.page-header a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 3px;
+  left: .625rem;
+  bottom: 2px;
+  background: var(--c7);
+  border-radius: 10px;
+  transition: .3s;
+}
+
+.page-header a:hover::after {
+  width: calc(100% - (.625rem * 2));
+}
+
+.main-header-links li {
+  padding: .625rem;
 }
 
 .page-header-bg {
@@ -139,6 +174,12 @@
     visibility: hidden;
     overflow-y: hidden;
     transition: .5s;
+  }
+  .main-header-links a:hover {
+    color: var(--c7);
+  }
+  .main-header-links a:hover::after {
+    width: 0;
   }
   [data-nav].ativo .main-header-links {
     height: 159px;

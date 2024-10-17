@@ -24,12 +24,20 @@
 .contato-redes {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 16px;
 }
 
 .contato-redes a {
+  box-sizing: border-box;
+  padding: .5rem;
   font-size: 4rem;
   color: var(--c7);
+  transition: .3s;
+}
+
+.contato-redes a:hover {
+  color: var(--c6);
+  transform: scale(1.1);
 }
 
 @media (max-width: 768px) {
@@ -37,6 +45,9 @@
     gap: 20px;
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+  .contato-redes {
+    gap: 4px;
   }
   .contato-redes a {
     font-size: 2.5rem;
