@@ -18,6 +18,11 @@
   gap: 20px;
 }
 
+.sobre-projeto .paragrafo p > a:hover {
+  color: var(--c5);
+  transition: .3s;
+}
+
 .sobre-projeto-conteudo,
 .sobre-mim {
   display: flex;
@@ -32,6 +37,11 @@
 .sobre-projeto img {
   border-radius: 20px;
   min-width: 400px;
+  transition: .8s;
+}
+
+.sobre-projeto img:hover {
+  transform: scale(1.05);
 }
 
 .sobre .titulo {

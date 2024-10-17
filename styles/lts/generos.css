@@ -40,6 +40,14 @@
   gap: 40px;
 }
 
+.generos-conteudo-item .paragrafo {
+  transition: .8s;
+}
+
+.generos-conteudo-item:hover .paragrafo {
+  transform: scale(1.05);
+}
+
 .generos-conteudo-item > h2 {
   text-align: center;
   font-weight: 400;

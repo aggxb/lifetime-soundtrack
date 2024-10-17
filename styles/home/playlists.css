@@ -36,6 +36,14 @@
   gap: 20px;
 }
 
+.playlists-item iframe {
+  transition: .3s;
+}
+
+.playlists-item iframe:hover {
+  transform: scale(1.02);
+}
+
 .playlists-item .paragrafo {
   max-width: 540px;
   color: var(--c3);

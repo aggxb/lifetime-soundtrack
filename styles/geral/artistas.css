@@ -44,11 +44,25 @@
 .artista-img img {
   max-width: 350px;
   border-radius: 24px;
+  transition: .8s;
+}
+
+.artista-img img:hover {
+  filter: brightness(.8);
+  transform: scale(1.03);
 }
 
 .artista-img-icons {
   display: flex;
   gap: 20px;
+}
+
+.artista-img-icons i {
+  transition: .3s;
+}
+
+.artista-img-icons i:hover {
+  transform: scale(1.2);
 }
 
 .artista-img-icons i {

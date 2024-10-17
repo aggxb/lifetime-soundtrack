@@ -34,6 +34,15 @@
   border-radius: 24px;
 }
 
+.album-img img {
+  transition: .5s;
+}
+
+.album-item:hover .album-img img {
+  filter: brightness(.4);
+  transform: scale(1.05);
+}
+
 .albuns-lista,
 .album-desc {
   display: flex;
