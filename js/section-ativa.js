@@ -4,10 +4,17 @@ export default function initSectionAtiva () {
 
   if(sectionLinks.length && sectionLista.length) {
     let thresholdValor = .6;
+    const mobileWidth = 768;
 
-    if(window.location.pathname === '/pages/index.html') {
+    if (window.location.pathname === '/pages/index.html') {
       thresholdValor = .35;
-    } else if (window.location.pathname === '/pages/my-lifetime-soundtrack.html') {
+    }
+
+    if (window.location.pathname === '/pages/index.html' && window.innerWidth <= mobileWidth) {
+      thresholdValor = .26;
+    }
+    
+    if (window.location.pathname === '/pages/my-lifetime-soundtrack.html') {
       thresholdValor = .25;
     }
 
