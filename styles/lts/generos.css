@@ -41,6 +41,7 @@
 }
 
 .generos-conteudo-item .paragrafo {
+  box-shadow: 5px 5px 10px 0px rgba(33, 70, 32, 0.2);
   transition: .8s;
 }
 

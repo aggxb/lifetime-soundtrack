@@ -35,6 +35,7 @@
 }
 
 .album-img img {
+  box-shadow: 5px 5px 10px 0px rgba(255, 245, 217, .3);
   transition: .5s;
 }
 
