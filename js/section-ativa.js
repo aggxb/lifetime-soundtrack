@@ -4,8 +4,11 @@ export default function initSectionAtiva () {
 
   if(sectionLinks.length && sectionLista.length) {
     let thresholdValor = .6;
+
     if(window.location.pathname === '/pages/index.html') {
       thresholdValor = .35;
+    } else if (window.location.pathname === '/pages/my-lifetime-soundtrack.html') {
+      thresholdValor = .25;
     }
 
     const sectionAtivaObserver = new IntersectionObserver(sections => {
