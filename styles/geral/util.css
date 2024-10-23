@@ -8,6 +8,10 @@
   --c7: #c7ae6a;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .font-1-xg {
   font-family: "Quattrocento", sans-serif;
   font-size: 6rem;
