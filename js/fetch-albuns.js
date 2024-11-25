@@ -101,7 +101,7 @@ export default function initFetchAlbuns() {
       { artista: 'Exaltasamba', album: 'Pagode Do Exalta Ao Vivo', genero: 'Samba', imagem: '', nota: 10, favorita: 12, link: 'https://open.spotify.com/intl-pt/album/0wDdO69c0YKDD4PwXOed0H?si=hbdkp3F9Q8Wkg2KQjQ7MiQ' },
       { artista: 'Djavan', album: 'Djavan Ao Vivo', genero: 'MPB', imagem: '', nota: 9.4, favorita: 7, link: 'https://open.spotify.com/intl-pt/album/2WWakvH7foDm8RjWFMDcL7?si=SabWmOUcTXOriLyBLokjcA' },
       { artista: 'Kyan', album: 'Só Vilão, Aqui Não Tem Herói [Explicit]', genero: 'Rap', imagem: '', nota: 7.4, favorita: 6, link: 'https://open.spotify.com/intl-pt/album/2vMgIV8p4Lo4ZlaclzOyqt?si=oQW--BmDR5uKDeumlu_rMA'},
-      { artista: 'Alee', album: 'DIAS ANTES DO CAOS', genero: 'Trap', imagem: '', nota: 8.7, favorita: 'PENTE LONGO', link: 'https://open.spotify.com/intl-pt/album/2BFosqa97kxv0HBBeB02d8?si=pMzZ7QnhRWi1AN8TA3caNg' },
+      { artista: 'Alee', album: 'DIAS ANTES DO CAOS', genero: 'Rap', imagem: '', nota: 8.7, favorita: 'PENTE LONGO', link: 'https://open.spotify.com/intl-pt/album/2BFosqa97kxv0HBBeB02d8?si=pMzZ7QnhRWi1AN8TA3caNg' },
       { artista: 'Brent Faiyaz', album: 'WASTELAND', genero: 'R&B', imagem: '', nota: 8.2, favorita: 9, link: 'https://open.spotify.com/intl-pt/album/0PHMNbcgHfzSUALlfk7wGg?si=u_54C84PR9W2RoQjBxE3KQ'},
       { artista: 'Frank Ocean', album: 'channel ORANGE', genero: 'R&B', imagem: '', nota: 9.5, favorita: 9, link: 'https://open.spotify.com/intl-pt/album/392p3shh2jkxUxY2VHvlH8?si=eBnYORUnRKKewNs5WERWFQ' },
       { artista: 'Travis Scott', album: 'UTOPIA', genero: 'Rap', imagem: '', nota: 8.2, favorita: 14, link: 'https://open.spotify.com/intl-pt/album/18NOKLkZETa4sWwLMIm0UZ?si=LwMuu5CaTouvC2KaQZufIA' },
