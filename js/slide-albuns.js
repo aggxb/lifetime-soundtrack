@@ -156,7 +156,7 @@ export default function initSlideAlbuns() {
         });
       });
 
-      aoClicarNoAlbum()
+      aoClicarNoAlbum();
     }
 
     const aoClicarNoAlbum = () => {
@@ -182,11 +182,12 @@ export default function initSlideAlbuns() {
       adicionarEventos();
       ativarNoIntervalo();
       gerenciarClique();
-      aoAjustarTela();
-      adicionarTransicao(true);
       mudarItemSlide(0);
+      adicionarTransicao(true);
+      aoAjustarTela();
     }
-
+    
     ativarFuncoes();
+    aoAjustarTela();
   }
 }

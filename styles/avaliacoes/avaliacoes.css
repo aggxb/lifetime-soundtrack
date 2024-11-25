@@ -31,11 +31,21 @@
   gap: 40px;
 }
 
-#avaliacoes-list .album-img img {
-  max-width: 250px;
+.avaliacoes-item {
+  display: flex;
+  gap: 20px;
 }
 
-#avaliacoes-list .album-desc {
+.avaliacoes-item .album-img img {
+  max-width: 300px;
+}
+
+.avaliacoes-item:hover .album-img img {
+  filter: brightness(.4);
+  transform: scale(1.05);
+}
+
+.avaliacoes-item .album-desc {
   padding-top: 20px;
   padding-bottom: 20px;
   justify-content: space-between;
@@ -59,12 +69,16 @@
   .avaliacoes {
     margin-top: 50px;
   }
-  #avaliacoes-list .album-desc {
+  .avaliacoes-item {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .avaliacoes-item .album-desc {
     padding-top: 0;
     padding-bottom: 0;
     gap: 20px;
   }
-  #avaliacoes-list .album-avaliacao p {
+  .avaliacoes-item .album-avaliacao p {
     font-size: 1.25rem;
   }
 }

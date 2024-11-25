@@ -4,7 +4,8 @@ import initSectionAtiva from "./section-ativa.js";
 import initScrollSuave from "./scroll-suave.js";
 import initAnimacaoScroll from "./animacao-scroll.js";
 import initSlideArtistas from "./slide-artistas.js";
-import initSlideAlbuns from "./slide-albuns.js";
+import initFetchAlbuns from "./fetch-albuns.js";
+import initAlbunsGenero from "./albuns-genero.js";
 
 initLinkAtivo();
 initMenuMobile();
@@ -12,4 +13,5 @@ initSectionAtiva();
 initScrollSuave();
 initAnimacaoScroll();
 initSlideArtistas();
-initSlideAlbuns();
+initFetchAlbuns();
+initAlbunsGenero();
