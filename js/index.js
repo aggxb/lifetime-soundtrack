@@ -6,6 +6,7 @@ import initAnimacaoScroll from "./animacao-scroll.js";
 import initSlideArtistas from "./slide-artistas.js";
 import initFetchAlbuns from "./fetch-albuns.js";
 import initAlbunsGenero from "./albuns-genero.js";
+import initPesquisaPorTag from "./pesquisa-por-tag.js";
 
 initLinkAtivo();
 initMenuMobile();
@@ -15,3 +16,4 @@ initAnimacaoScroll();
 initSlideArtistas();
 initFetchAlbuns();
 initAlbunsGenero();
+initPesquisaPorTag();
