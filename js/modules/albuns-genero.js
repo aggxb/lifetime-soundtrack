@@ -67,7 +67,7 @@ export default function initAlbunsGenero() {
   } else if (path.includes('rap')) {
     const albunsRap = [
       { artista: "Racionais MC's ", album: 'Nada Como um Dia Após o Outro Dia, Vol. 1 & 2', imagem: '/assets/albuns-img/nada-como-um-dia-apos-o-outro-dia.jpg', link: 'https://open.spotify.com/intl-pt/album/4HcPzKyKVtcZCwJgesoZWn?si=JltBn6qbTZynEhd4_yj1gg' },
-      { artista: 'Alee', album: 'CAOS', imagem: '/assets/albuns-img/caos.jpg', link: 'https://open.spotify.com/intl-pt/album/6fgLXQA1I40kOPXy8G4BK8?si=PVgWJwucSnu1ys127X7fQA' },
+      { artista: 'Recayd Mob', album: 'Calzone Tapes 3', imagem: '/assets/albuns-img/calzone-tapes.jpg', link: 'https://open.spotify.com/intl-pt/album/5ka0HFmEwwvDjxOy0t9VnC?si=NVBah8goT_KwYD_9R8AVlQ' },
       { artista: 'Travis Scott', album: 'UTOPIA', imagem: '/assets/albuns-img/utopia.jpg', link: 'https://open.spotify.com/intl-pt/album/18NOKLkZETa4sWwLMIm0UZ?si=qWRJjkrPQ-OiGfv2lk-trQ' },
       { artista: "BK'", album: 'Castelos & Ruínas', imagem: '/assets/albuns-img/castelos&ruinas.jpg', link: 'https://open.spotify.com/intl-pt/album/5BCxlla9sHRzzP302BOMH0?si=B0wTzHa0Q1ynPLXR9af67Q' },
       { artista: 'Tyler, The Creator', album: 'IGOR', imagem: '/assets/albuns-img/igor.jpg', link: 'https://open.spotify.com/intl-pt/album/5zi7WsKlIiUXv09tbGLKsE?si=Ep076lg9RgSciUgVB6CNKw' },

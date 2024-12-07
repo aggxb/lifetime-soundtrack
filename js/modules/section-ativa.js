@@ -6,11 +6,11 @@ export default function initSectionAtiva () {
     let thresholdValor = .6;
     const mobileWidth = 768;
 
-    if (window.location.pathname === '/pages/index.html') {
+    if (window.location.pathname === '/index.html') {
       thresholdValor = .35;
     }
 
-    if (window.location.pathname === '/pages/index.html' && window.innerWidth <= mobileWidth) {
+    if (window.location.pathname === '/index.html' && window.innerWidth <= mobileWidth) {
       thresholdValor = .26;
     }
     
