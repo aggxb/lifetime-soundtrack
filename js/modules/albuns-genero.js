@@ -18,7 +18,7 @@ export default function initAlbunsGenero() {
             <img src="${album.imagem}" alt="Imagem do Álbum ${album.album}">
           </a>
         </div>
-        <div class="album-info" data-animar="up">
+        <div class="album-info" data-animar="down">
           <h2 class="font-1-m">${album.album}</h2>
           <h3 class="font-1-p">${album.artista}</h3>
         </div>

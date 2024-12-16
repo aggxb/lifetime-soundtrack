@@ -12,20 +12,20 @@ export default function initSlideArtistas() {
 
     const eventos = ['click', 'touchstart'];
 
-    function mudarItem() {
+    const mudarItem = () => {
       slideArtistas.style.transform = `translateX(${-indexAtual * slideWidth}px)`;
   
       ajustarContainerHeight();
     }
   
-    function ajustarContainerHeight() {
+    const ajustarContainerHeight = () => {
       const slideAtual = listaArtistas[indexAtual];
       const slideHeight = slideAtual.scrollHeight;
   
       slideContainer.style.height = `${slideHeight}px`;
     }
   
-    function ajustarSlideWidth() {
+    const ajustarSlideWidth = () => {
       slideWidth = listaArtistas[0].clientWidth;
   
       mudarItem();

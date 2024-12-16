@@ -26,6 +26,12 @@
   background-position: right;
 }
 
+#mpb {
+  background: url('/assets/mpb.jpg');
+  background-size: cover;
+  background-position: right;
+}
+
 #samba {
   background: url('/assets/samba.jpg');
   background-size: cover;
