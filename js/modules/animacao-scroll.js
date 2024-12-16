@@ -1,7 +1,15 @@
 export default function initAnimacaoScroll() {
   const observerConfig = (elemento) => {
-    const threshold = elemento.classList.contains('album-img') || elemento.classList.contains('album-info') ? .4 : .1;
-    
+    let threshold = 0;
+
+    if (elemento.classList.contains('album-img')) {
+      threshold = .2;
+    } else if (elemento.classList.contains('albuns-info')) {
+      threshold = .7;
+    } else {
+      threshold = .1;
+    }
+
     const elementObserver = new IntersectionObserver((elementos) => {
       elementos.forEach((elemento) => {
         if (elemento.isIntersecting) {

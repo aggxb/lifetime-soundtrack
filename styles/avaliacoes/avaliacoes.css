@@ -8,12 +8,14 @@
   gap: 20px;
   padding-top: 4rem;
   padding-bottom: 4rem;
+  overflow: hidden;
 }
 
 .avaliacoes-titulo {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  padding: .2rem 0;
 }
 
 .avaliacoes-titulo .titulo {

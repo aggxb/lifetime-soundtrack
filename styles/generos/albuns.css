@@ -13,6 +13,10 @@
   color: var(--c7);
 }
 
+#albuns-sect .albuns .slider {
+  overflow: hidden;
+}
+
 #albuns-sect .albuns-lista {
   display: flex;
   flex-direction: row;
@@ -49,8 +53,7 @@
 }
 
 #albuns-sect .album-item.ativo:hover .album-img img {
-  transform: scale(1.05);
-  filter: brightness(1);
+  filter: contrast(1.15);
 }
 
 #albuns-sect .album-item .album-info {
