@@ -4,6 +4,14 @@ export default function initSectionAtiva () {
 
   if(sectionLinks.length && sectionLista.length) {
     let thresholdValor = .6;
+
+    if (window.location.pathname === '/index.html' && window.innerWidth < 500) {
+      thresholdValor = .7;
+    }
+
+    if (window.location.pathname === '/index.html' && (window.innerWidth < 500 && window.innerWidth > 450)) {
+      thresholdValor = 1;
+    }
     
     if (window.location.pathname === '/pages/rap.html') {
       thresholdValor = .3;
